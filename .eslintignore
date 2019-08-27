@@ -1,0 +1,6 @@
+build/
+# src/
+# *.js
+src/serviceWorker.js
+src/utils/utils.js
+src/assets/icons/icon/icon.jsx

@@ -1,0 +1,58 @@
+.header{
+  height: 50px;
+  background-color: rgba(20, 33, 46, 0.897);
+  height: 50px;
+
+}
+
+.navigationWrapper{
+  list-style: none;
+  display: flex;
+  justify-content: left;
+}
+
+.Logo{
+  display: block;
+  width: 40px;
+  height: 50px;
+}
+
+.logoIcon:hover{
+  transition: all .4s linear;
+}
+
+.logoIcon:hover{
+  fill: #fbff00
+}
+
+.linkWrapper {
+  transition: all .4s linear;
+}
+
+.linkWrapper:not(:nth-last-of-type(1)) {
+  margin-right: 5px;
+}
+
+.linkWrapper:nth-of-type(1) {
+  margin-left: 30px;
+}
+
+.navlink{
+  text-decoration: none;
+  display: block;
+  padding: 0 20px;
+  color: rgb(255, 255, 255);
+  transition: all .3s linear;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: scale .2s linear;
+}
+
+.navlink:hover{
+  color: #fbff00;
+}
+
+.navlink:active {
+  transform: scale(.9)
+}
