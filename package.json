@@ -68,7 +68,7 @@
     "husky": "^2.7.0",
     "lint-staged": "^8.2.1",
     "prettier": "^1.18.2",
-    "react-dev-utils": "^9.0.1"
+    "react-dev-utils": "^11.0.4"
   },
   "babel": {
     "presets": [
